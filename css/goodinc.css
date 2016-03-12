@@ -487,8 +487,17 @@ header {
 footer {
   background-color: #373737; }
   footer .menu-footer {
-    background-color: #474747; }
+    background-color: #474747;
+    margin-bottom: 50px; }
     footer .menu-footer .label-text {
       color: white; }
+  footer .last-menu {
+    color: #8F8F8F; }
+    footer .last-menu ul {
+      margin-bottom: 20px; }
+      footer .last-menu ul a {
+        color: #FFFFFF; }
+    footer .last-menu p {
+      font-size: 12px; }
 
 /*# sourceMappingURL=goodinc.css.map */

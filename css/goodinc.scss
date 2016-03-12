@@ -685,7 +685,7 @@ footer {
 
 	.menu-footer {
 		background-color: $menu-color;
-
+		margin-bottom: 50px;
 		.label-text {
 			color: white;
 		}
@@ -693,6 +693,19 @@ footer {
 		.menu{
 			@extend .menu-style;
 		}			
+	}
+
+	.last-menu {
+		color: $grey;
+		ul {
+			margin-bottom: 20px;
+			a{
+				color: $white;
+			}
+		}
+		p {
+			font-size: 12px;
+		}
 	}
 }
 
